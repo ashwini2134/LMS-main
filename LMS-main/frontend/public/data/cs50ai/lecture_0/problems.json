@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": "degrees",
+    "title": "Degrees of Separation",
+    "description": "Write a program that determines how many \"degrees of separation\" apart two actors are using BFS through a movie database. Two actors are connected if they both starred in a movie together.\n\n**Example:**\n```\nName: Emma Watson\nName: Jennifer Lawrence\n3 degrees of separation.\n1: Emma Watson and Brendan Gleeson starred in Harry Potter and the Order of the Phoenix\n2: Brendan Gleeson and Michael Fassbender starred in Centurion\n3: Michael Fassbender and Jennifer Lawrence starred in X-Men: First Class\n```",
+    "check50_slug": "cs50/problems/2024/ai/degrees",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Using DFS instead of BFS — BFS guarantees the shortest path",
+      "Not tracking visited nodes, causing infinite loops in cyclic graphs",
+      "Returning None when no path exists instead of an empty list"
+    ]
+  },
+  {
+    "id": "tictactoe",
+    "title": "Tic-Tac-Toe",
+    "description": "Implement an AI that plays Tic-Tac-Toe optimally using Minimax. The AI should never lose — it should always win or draw.\n\nYou must implement: `player(board)`, `actions(board)`, `result(board, action)`, `winner(board)`, `terminal(board)`, `utility(board)`, and `minimax(board)`.",
+    "check50_slug": "cs50/problems/2024/ai/tictactoe",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Not handling the terminal state check before recursing in minimax",
+      "Returning the wrong player (X vs O) from the player() function",
+      "Mutating the board in result() instead of returning a deep copy"
+    ]
+  }
+]

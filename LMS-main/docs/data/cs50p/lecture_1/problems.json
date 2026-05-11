@@ -1,0 +1,35 @@
+﻿[
+  {
+    "id": "deep-thought",
+    "title": "Deep Thought",
+    "description": "According to the Hitchhiker's Guide to the Galaxy, the answer to the Great Question of Life, the Universe and Everything is 42. Write a program that prompts the user for the answer to the Great Question. If the answer is 42 (or \"forty-two\" or \"forty two\"), output \"Yes, that's the answer!\". Otherwise output \"No\".\n\n**Example:**\n```\nWhat is the Answer to the Great Question of Life, the Universe, and Everything? 42\nYes, that's the answer!\n```",
+    "check50_slug": "cs50/problems/2024/python/deep",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Not handling the string variants (forty-two, forty two)",
+      "Case-sensitive comparison instead of case-insensitive"
+    ]
+  },
+  {
+    "id": "home-federal",
+    "title": "Home Federal Savings Bank",
+    "description": "Prompt the user for a greeting. If it starts with \"hello\" (case-insensitive), output $0. If it starts with an \"h\" but not \"hello\", output $20. Otherwise output $100.\n\n**Example:**\n```\nGreeting: Hello, Newman\n$0\n```",
+    "check50_slug": "cs50/problems/2024/python/bank",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Not stripping leading whitespace before checking the greeting",
+      "Using startswith incorrectly without lowercasing first"
+    ]
+  },
+  {
+    "id": "file-extensions",
+    "title": "File Extensions",
+    "description": "Prompt the user for the name of a file and output that file's media type based on the extension. Handle: .gif → image/gif, .jpg/.jpeg → image/jpeg, .png → image/png, .pdf → application/pdf, .txt → text/plain, .zip → application/zip. Anything else outputs application/octet-stream.",
+    "check50_slug": "cs50/problems/2024/python/extensions",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Not lowercasing the extension before comparison",
+      "Missing the .jpeg alias for .jpg"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+﻿[
+  {
+    "id": "indoor-voice",
+    "title": "Indoor Voice",
+    "description": "Given a string of text, output that same text in lowercase. Assume that the input will be a single line of text.\n\n**Example:**\n```\nInput:  HELLO, WORLD\nOutput: hello, world\n```",
+    "check50_slug": "cs50/problems/2024/python/indoor",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Using print(input().lower()) without storing the variable",
+      "Forgetting that .lower() returns a new string and does not modify in place"
+    ]
+  },
+  {
+    "id": "playback-speed",
+    "title": "Playback Speed",
+    "description": "Suppose that a user types too quickly and uses ... instead of spaces between words. Write a program that replaces any ... in the input with spaces.\n\n**Example:**\n```\nInput:  This...is...CS50\nOutput: This is CS50\n```",
+    "check50_slug": "cs50/problems/2024/python/playback",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Using replace() incorrectly — check argument order: replace(old, new)",
+      "Not handling multiple occurrences (str.replace handles all by default)"
+    ]
+  },
+  {
+    "id": "making-faces",
+    "title": "Making Faces",
+    "description": "Replace text emoticons :) and :( with their emoji equivalents 🙂 and 🙁.\n\n**Example:**\n```\nInput:  Hello, world :)\nOutput: Hello, world 🙂\n```",
+    "check50_slug": "cs50/problems/2024/python/faces",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Only replacing one of the two emoticons",
+      "Using the wrong emoji character"
+    ]
+  },
+  {
+    "id": "einstein",
+    "title": "Einstein",
+    "description": "Prompt the user for mass in kilograms (as an integer), then output the equivalent number of Joules using E = mc², where c = 300,000,000 m/s.\n\n**Example:**\n```\nm: 1\n1.0 Joule\n```\nNote: output exactly that many Joules with no trailing zeros for whole numbers.",
+    "check50_slug": "cs50/problems/2024/python/einstein",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Using the wrong value for c",
+      "Not converting the input string to int before multiplication"
+    ]
+  },
+  {
+    "id": "tip-calculator",
+    "title": "Tip Calculator",
+    "description": "Complete the functions in the tip calculator program. Implement `dollars_to_float` (strips `$` prefix and converts to float) and `percent_to_float` (strips `%` suffix and converts to float).\n\n**Example:**\n```\nHow much was the meal? $50.00\nWhat percentage would you like to tip? 15%\nLeave $7.50\n```",
+    "check50_slug": "cs50/problems/2024/python/tip",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Stripping the wrong character or using the wrong slice index",
+      "Forgetting to divide the percentage by 100 before multiplying"
+    ]
+  }
+]
