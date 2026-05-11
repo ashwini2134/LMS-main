@@ -347,7 +347,7 @@ __Why is depth-limited minimax sometimes preferable to minimax without a depth l
 
 __Consider the Minimax tree below, where the green up arrows indicate the MAX player and red down arrows indicate the MIN player. The leaf nodes are each labelled with their value.__
 updated LMS project
-
+new feature added
 ![Quiz 0, Question 4](/static/images/image_122857256070.png)
 
 __What is the value of the root node?__
