@@ -3,9 +3,9 @@
 @theme {
   --font-sans: "DM Sans", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --color-fa-bg: #0c1222;
-  --color-fa-surface: #141c30;
-  --color-fa-border: #243046;
+  --color-fa-bg: #0a0e27;
+  --color-fa-surface: #111428;
+  --color-fa-border: #1e293b;
   --color-fa-accent: #3b82f6;
   --color-fa-accent-dim: #1d4ed8;
   --color-fa-muted: #94a3b8;
@@ -17,11 +17,12 @@
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-sans);
-  background: linear-gradient(160deg, #0c1222 0%, #0a1628 45%, #0d1a2d 100%);
+  background: linear-gradient(135deg, #0a0e27 0%, #0f1536 50%, #0a1a35 100%);
   color: #e2e8f0;
   min-height: 100vh;
   margin: 0;
@@ -46,8 +47,8 @@ figure {
 figure img {
   max-width: 100%;
   height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 figcaption {

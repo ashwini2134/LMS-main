@@ -1,16 +1,15 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from "./App";
-import { AuthProvider } from "./auth";
-import "./index.css";
+import { AuthProvider } from "./auth"; // <-- FIXED
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <AuthProvider>
         <App />
       </AuthProvider>
-    </BrowserRouter>
-  </StrictMode>,
+    </HashRouter>
+  </StrictMode>
 );

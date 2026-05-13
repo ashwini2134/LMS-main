@@ -1,0 +1,35 @@
+﻿[
+  {
+    "id": "camel-case",
+    "title": "camelCase",
+    "description": "Convert a camelCase variable name to snake_case. Prompt the user for a camelCase string and output the snake_case equivalent.\n\n**Example:**\n```\nInput:  camelCase\nOutput: camel_case\n```\n```\nInput:  thisIsPython\nOutput: this_is_python\n```",
+    "check50_slug": "cs50/problems/2024/python/camel",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Not inserting the underscore before each uppercase letter",
+      "Forgetting to lowercase the final result"
+    ]
+  },
+  {
+    "id": "coke-machine",
+    "title": "Coke Machine",
+    "description": "A coke machine accepts coins: 25 cents, 10 cents, and 5 cents. Prompt the user repeatedly for a coin until they've paid at least 50 cents. After each insertion print the amount due. When paid in full, print how much change is owed.\n\n**Example:**\n```\nAmount Due: 50\nInsert Coin: 25\nAmount Due: 25\nInsert Coin: 25\nChange Owed: 0\n```",
+    "check50_slug": "cs50/problems/2024/python/coke",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Not rejecting invalid coin denominations",
+      "Off-by-one error in the loop termination condition"
+    ]
+  },
+  {
+    "id": "just-setting-up",
+    "title": "Just Setting Up My Twttr",
+    "description": "Remove all vowels (a, e, i, o, u — case-insensitively) from the input string and print the result.\n\n**Example:**\n```\nInput:  What's your name?\nOutput: Wht's yr nm?\n```",
+    "check50_slug": "cs50/problems/2024/python/twttr",
+    "difficulty": "Easy",
+    "common_mistakes": [
+      "Missing uppercase vowels A, E, I, O, U",
+      "Using a mutable approach that skips characters"
+    ]
+  }
+]

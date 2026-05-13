@@ -1,18 +1,33 @@
-import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  // GitHub Pages deploys to /<repo-name>/ — set via VITE_BASE_PATH in CI.
-  // Locally it defaults to "/" so `npm run dev` works without any env var.
-  base: process.env.VITE_BASE_PATH ?? "/",
+  plugins: [react()],
+  base: "/LMS/",
   build: {
-    outDir: "../docs",
+    outDir: "docs",
     emptyOutDir: true,
-  },
-  server: {
-    port: 5173,
-    // No proxy needed — all data is served from /public/data/ as static files
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Vendor chunks
+          'react-vendor': ['react', 'react-dom'],
+          'router-vendor': ['react-router-dom'],
+
+          // Feature chunks
+          'auth': ['./src/auth.tsx'],
+          'api': ['./src/api.ts'],
+
+          // Page chunks
+          'pages-login': ['./src/pages/Login.tsx'],
+          'pages-register': ['./src/pages/Register.tsx'],
+          'pages-dashboard': ['./src/pages/Dashboard.tsx'],
+          'pages-course': ['./src/pages/CoursePage.tsx'],
+          'pages-problem': ['./src/pages/ProblemPage.tsx'],
+          'pages-lecture': ['./src/pages/LecturePage.tsx'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000, // Increase warning limit to 1000kb
   },
 });

@@ -1,6 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
 import { api, clearToken, getToken, setToken } from "./api";
-
 type User = { id: number; email: string; name: string } | null;
 
 const Ctx = createContext<{
