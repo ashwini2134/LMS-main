@@ -1,0 +1,41 @@
+[
+  {
+    "question": "What value will the network compute for y?",
+    "options": [
+      "0 for step activation function, 0 for ReLU activation function",
+      "1 for step activation function, 11 for ReLU activation function",
+      "16 for step activation function, 16 for ReLU activation function"
+    ],
+    "answer": "1 for step activation function, 11 for ReLU activation function"
+  },
+  {
+    "question": "How many total weights (including biases) exist?",
+    "options": [
+      "32",
+      "36",
+      "40",
+      "44",
+      "48"
+    ],
+    "answer": "44"
+  },
+  {
+    "question": "Which network architecture best fits voice classification?",
+    "options": [
+      "One-to-one",
+      "Many-to-one",
+      "One-to-many",
+      "Many-to-many"
+    ],
+    "answer": "Many-to-one"
+  },
+  {
+    "question": "What is the result of applying a 2x2 max-pool?",
+    "options": [
+      "[[16, 12], [32, 28]]",
+      "[[16, 14], [32, 30]]",
+      "[[22, 24], [32, 30]]"
+    ],
+    "answer": "[[16, 12], [32, 28]]"
+  }
+]

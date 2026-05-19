@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quiz",
+    "title": "Quiz 6",
+    "description": "Test your understanding of natural language processing, parsing, meaning representation, and information extraction.",
+    "check50_slug": "cs50/quizzes/2024/ai/6",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Confusing syntax with semantics",
+      "Not understanding word embeddings and their properties",
+      "Incorrect n-gram probability calculations"
+    ]
+  },
+  {
+    "id": "parser",
+    "title": "Parser",
+    "description": "Write an AI to parse English sentences into noun phrases and verb phrases. Your parser should build a tree structure representing the syntactic structure of sentences.",
+    "check50_slug": "cs50/problems/2024/ai/parser",
+    "difficulty": "Hard",
+    "common_mistakes": [
+      "Not handling ambiguous sentences correctly",
+      "Incorrect preposition attachment",
+      "Missing terminal symbols in grammar rules"
+    ]
+  }
+]

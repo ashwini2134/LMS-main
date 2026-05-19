@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": "knights",
+    "title": "Knights",
+    "description": "Write a program to solve logic puzzles about knights and knaves. Knights always tell the truth, knaves always lie. Given a set of statements, determine who is a knight and who is a knave by encoding each puzzle as a propositional logic sentence and using a model-checking algorithm.\n\nYou must implement the `And`, `Or`, `Not`, `Implication`, and `Biconditional` classes in `logic.py`.",
+    "check50_slug": "cs50/problems/2024/ai/knights",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Incorrectly encoding implication (A → B is not the same as A AND B)",
+      "Forgetting to include the constraint that each character is exactly one of knight/knave",
+      "Not handling the Biconditional as (A → B) AND (B → A)"
+    ]
+  },
+  {
+    "id": "minesweeper",
+    "title": "Minesweeper",
+    "description": "Write an AI to play Minesweeper using propositional logic. The AI maintains a knowledge base of logical sentences and uses inference to mark safe cells and mines.\n\nYou must implement `add_knowledge`, `make_safe_move`, and `make_random_move` in `MinesweeperAI`.",
+    "check50_slug": "cs50/problems/2024/ai/minesweeper",
+    "difficulty": "Hard",
+    "common_mistakes": [
+      "Not updating the knowledge base when a new mine or safe cell is discovered",
+      "Failing to infer new sentences by subtracting known subsets",
+      "Adding duplicate sentences to the knowledge base causing redundant computation"
+    ]
+  }
+]

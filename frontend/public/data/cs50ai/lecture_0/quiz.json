@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Which logical entailment is true?",
+    "options": [
+      "Sentence 6 entails Sentence 2",
+      "Sentence 1 entails Sentence 4",
+      "Sentence 2 entails Sentence 5",
+      "Sentence 5 entails Sentence 6"
+    ],
+    "answer": "Sentence 2 entails Sentence 5"
+  },
+  {
+    "question": "Which expression is logically equivalent to A ⊕ B?",
+    "options": [
+      "(A ∨ B) ∧ ¬ (A ∧ B)",
+      "(A ∧ B) ∨ ¬ (A ∨ B)",
+      "(A ∨ B) ∧ (A ∧ B)",
+      "(A ∨ B) ∧ ¬ (A ∨ B)"
+    ],
+    "answer": "(A ∨ B) ∧ ¬ (A ∧ B)"
+  },
+  {
+    "question": "Which propositional logic statement is correct?",
+    "options": [
+      "(R → C) ∧ ¬S",
+      "R ∧ C ∧ ¬S",
+      "R → (C ∧ ¬S)",
+      "(C ∨ ¬S) → R"
+    ],
+    "answer": "R → (C ∧ ¬S)"
+  }
+]

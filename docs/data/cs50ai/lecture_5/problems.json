@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quiz",
+    "title": "Quiz 5",
+    "description": "Test your understanding of neural networks, artificial neurons, activation functions, backpropagation, and deep learning.",
+    "check50_slug": "cs50/quizzes/2024/ai/5",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Misunderstanding backpropagation's chain rule application",
+      "Incorrect activation function derivatives",
+      "Not properly initializing weights and biases"
+    ]
+  },
+  {
+    "id": "traffic",
+    "title": "Traffic",
+    "description": "Write an AI to classify road signs from images using a convolutional neural network. Train and test your model on the GTSRB dataset.",
+    "check50_slug": "cs50/problems/2024/ai/traffic",
+    "difficulty": "Hard",
+    "common_mistakes": [
+      "Not properly preprocessing images (normalization, resizing)",
+      "Overfitting due to insufficient data augmentation",
+      "Incorrect model architecture for image classification"
+    ]
+  }
+]

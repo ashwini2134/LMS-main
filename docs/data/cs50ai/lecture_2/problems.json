@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quiz",
+    "title": "Quiz 2",
+    "description": "Test your understanding of probability and uncertainty. This quiz covers conditional probability, Bayes' Rule, joint probability distributions, and more.",
+    "check50_slug": "cs50/quizzes/2024/ai/2",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Confusing P(A|B) with P(B|A)",
+      "Not using the law of total probability correctly",
+      "Incorrectly computing joint probabilities"
+    ]
+  },
+  {
+    "id": "pagerank",
+    "title": "PageRank",
+    "description": "Write a program to rank web pages by importance using the PageRank algorithm. Your program should model a corpus of web pages and their links, then compute a page rank for each page based on incoming links.",
+    "check50_slug": "cs50/problems/2024/ai/pagerank",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Not handling pages with no outgoing links correctly",
+      "Incorrect damping factor application",
+      "Not iterating to convergence"
+    ]
+  }
+]

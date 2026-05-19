@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quiz",
+    "title": "Quiz 4",
+    "description": "Test your understanding of machine learning, supervised vs unsupervised learning, classification, regression, and neural networks.",
+    "check50_slug": "cs50/quizzes/2024/ai/4",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Confusing overfitting with underfitting",
+      "Not understanding the bias-variance tradeoff",
+      "Incorrect loss function selection for the task"
+    ]
+  },
+  {
+    "id": "shopping",
+    "title": "Shopping",
+    "description": "Write an AI to predict whether online shopping customers will complete a purchase. Train a nearest-neighbor classifier on customer data to predict purchase outcomes.",
+    "check50_slug": "cs50/problems/2024/ai/shopping",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Not normalizing features before computing distances",
+      "Using incorrect distance metric",
+      "Not properly splitting train/test data"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+﻿[
+  { "number": 0, "label": "Week 0", "title": "Search" },
+  { "number": 1, "label": "Week 1", "title": "Knowledge" },
+  { "number": 2, "label": "Week 2", "title": "Uncertainty" },
+  { "number": 3, "label": "Week 3", "title": "Optimization" },
+  { "number": 4, "label": "Week 4", "title": "Learning" },
+  { "number": 5, "label": "Week 5", "title": "Neural Networks" },
+  { "number": 6, "label": "Week 6", "title": "Language" }
+]

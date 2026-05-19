@@ -1,0 +1,26 @@
+[
+  {
+    "id": "quiz",
+    "title": "Quiz 3",
+    "description": "Test your understanding of optimization algorithms including local search, hill climbing, simulated annealing, and genetic algorithms.",
+    "check50_slug": "cs50/quizzes/2024/ai/3",
+    "difficulty": "Medium",
+    "common_mistakes": [
+      "Confusing local minima with global minima",
+      "Misunderstanding how simulated annealing escapes local maxima",
+      "Incorrect temperature schedule implementation"
+    ]
+  },
+  {
+    "id": "crossword",
+    "title": "Crossword",
+    "description": "Write a program to generate a crossword puzzle solution using constraint satisfaction. Your program should enforce word constraints and ensure no two adjacent words share overlapping letters incorrectly.",
+    "check50_slug": "cs50/problems/2024/ai/crossword",
+    "difficulty": "Hard",
+    "common_mistakes": [
+      "Not implementing arc consistency correctly",
+      "Failing to handle domains that become empty",
+      "Not backtracking properly when a dead end is reached"
+    ]
+  }
+]

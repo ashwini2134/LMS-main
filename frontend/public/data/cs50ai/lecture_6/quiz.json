@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Which sentences can be derived from the grammar?",
+    "options": [
+      "Sentence 1 only",
+      "Sentence 1 and Sentence 3",
+      "Sentence 1, Sentence 3, and Sentence 4",
+      "All sentences"
+    ],
+    "answer": "Sentence 1, Sentence 3, and Sentence 4"
+  },
+  {
+    "question": "Which statement is NOT true?",
+    "options": [
+      "Attention mechanisms can determine important parts of sequences.",
+      "One-hot representations better represent meaning than distributed representations.",
+      "Transformers are easier to parallelize.",
+      "Naive Bayes assumes word order does not matter."
+    ],
+    "answer": "One-hot representations better represent meaning than distributed representations."
+  },
+  {
+    "question": "Why is smoothing useful in Naive Bayes?",
+    "options": [
+      "Helps handle unseen evidence",
+      "Helps with many categories",
+      "Removes conditional independence assumption",
+      "Converts conditional probabilities"
+    ],
+    "answer": "Helps handle unseen evidence"
+  },
+  {
+    "question": "From the phrase “must be the truth”, how many 2-grams can be extracted?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3"
+  }
+]

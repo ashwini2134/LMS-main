@@ -1,0 +1,54 @@
+[
+  {
+    "question": "If a card is drawn from a standard deck, what is the probability that it is a spade or a two?",
+    "options": [
+      "About 0.019",
+      "About 0.077",
+      "About 0.17",
+      "About 0.25",
+      "About 0.308",
+      "About 0.327",
+      "About 0.5",
+      "None of the above"
+    ],
+    "answer": "About 0.308"
+  },
+  {
+    "question": "What is the probability that two fair coins land one heads and one tails?",
+    "options": [
+      "0.25",
+      "0.5 = 1/2",
+      "0.75",
+      "1.0"
+    ],
+    "answer": "0.5 = 1/2"
+  },
+  {
+    "question": "Which Bayesian Network statement is true?",
+    "options": [
+      "Assuming we know the train is on time, whether or not there is rain affects the probability that the appointment is attended.",
+      "Assuming we know there is rain, whether or not there is track maintenance does not affect the probability that the train is on time.",
+      "Assuming we know there is track maintenance, whether or not there is rain does not affect the probability that the train is on time.",
+      "Assuming we know the train is on time, whether or not there is track maintenance does not affect the probability that the appointment is attended.",
+      "Assuming we know there is track maintenance, whether or not there is rain does not affect the probability that the appointment is attended."
+    ],
+    "answer": "Assuming we know the train is on time, whether or not there is track maintenance does not affect the probability that the appointment is attended."
+  },
+  {
+    "question": "What is the probability that a battery is both made by Factory A and defective?",
+    "options": [
+      "0.008",
+      "0.012",
+      "0.02",
+      "0.024",
+      "0.028",
+      "0.06",
+      "0.12",
+      "0.2",
+      "0.429",
+      "0.6",
+      "None of the above"
+    ],
+    "answer": "0.012"
+  }
+]
